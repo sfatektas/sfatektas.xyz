@@ -1,13 +1,12 @@
 import Home from "./Home";
-import Navbar from "./Navbar";
-import Skills from "./Skills";
+import Navbar from "./Navbar"
 const Content = () => 
 {
     return (
-        <div className="w-9/12 ml-auto">
-            {/* <Navbar/> */}
+        <div className="w-9/12 ml-auto sm:w-full sm:order-1 sm:h-screen">
+            <Navbar/>
             <Home/>
-            <Skills/>
+            {/* <Skills/> */}
         </div>
     )
 }

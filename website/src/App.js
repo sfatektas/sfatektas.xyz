@@ -3,7 +3,7 @@ import Content from "./components/Content";
 function App() {
   return (
     <>
-      <div className="">
+      <div className="sm:flex sm:flex-col">
       <Aside/>
       <Content/>
       </div>
