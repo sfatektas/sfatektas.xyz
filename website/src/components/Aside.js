@@ -4,9 +4,10 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import {Email, GitHub} from '@mui/icons-material'
 import EmailIcon from '@mui/icons-material/Email';
 import PhotoSide from './PhotoSide';
+import arrow from '../assets/img/arrow.png'
 const Aside = () => {
     return (
-        <div className='w-3/12 inline-block h-screen bg-black'>
+        <div className='w-3/12 inline-block bg-black fixed'> {/*h-screen silindi. */}
             <div className='h-screen flex items-center justify-center flex-col'>
                 <PhotoSide />
                 <div className=' text-white  w-10/12 m-9 text-center'>
@@ -19,6 +20,9 @@ const Aside = () => {
                 </div>
                 </div>
             </div>
+            {/* <div className='arrow absolute left-0 top-0'>
+                <img className='text-white' src={arrow}></img>
+                </div> */}
         </div>
     )
 }

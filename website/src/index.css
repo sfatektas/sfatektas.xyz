@@ -4,8 +4,8 @@
 
 html{
   font-family: 'Koulen', cursive;
-font-family: 'Lato', sans-serif;
-font-family: 'Ubuntu', sans-serif;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 body{
@@ -20,4 +20,8 @@ body{
 .flrounded
 {
   border-radius: 100%;
+}
+
+.scope span{
+  font-family: 'Smooch', cursive;
 }
