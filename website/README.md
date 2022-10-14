@@ -1,4 +1,4 @@
-# [sfatektas.xyz](http://sfatektas.xyz)
+# GO => [sfatektas.xyz](http://sfatektas.xyz)
 
 # Getting Started with Create React App
 
